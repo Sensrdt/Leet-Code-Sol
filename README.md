@@ -1,1 +1,1 @@
-# Leet-Code-Sol
+# Leet-Code-Solution
