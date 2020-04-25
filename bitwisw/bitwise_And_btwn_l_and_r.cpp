@@ -1,5 +1,5 @@
 //first approach
-int n, int m;
+int n, m;
 int ans = m+1;
 
 for (int i=m; i<=n; i++)
@@ -14,4 +14,15 @@ for (int i=m; i<=n; i++)
 return ans;
 
 // Second approach
+int n, m;
 
+int count = 0;
+
+while(n != m)
+{
+	n >> = 1;
+	m >> = 1;
+	count++;
+}
+
+return m << count;
